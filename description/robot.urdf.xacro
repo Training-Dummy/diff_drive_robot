@@ -72,4 +72,19 @@
         </visual>
     </link>
 
+    <joint name="caster_wheel_joint" type="fixed">
+        <origin xyz="0.24 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <parent link="chassis" />
+        <child link="caster_wheel" />
+    </joint>
+
+    <link name="castor_wheel">
+        <visual>
+            <geometry>
+                <sphere radius="0.05" />
+            </geometry>
+            <material name="white" />
+        </visual>
+    </link>
+
 </robot>
