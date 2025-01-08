@@ -46,7 +46,7 @@ rviz2 -d src/diff_drive_robot/config/diff-drive.rviz
 
 - Run launch file
 ```bash
-ros2 launch diff-drive-robot launch_sim.launch.py
+ros2 launch diff_drive_robot launch_sim.launch.py
 ```
 
 - Use the `teleop_twist_keyboard` node to send command velocities on the `/cmd_vel` topic
